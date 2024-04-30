@@ -15,4 +15,28 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:white;
 }
+
+
+.dropdown-item:hover {
+    /* background-color: #F41052;*/
+    box-shadow: 0 0 10px 100px #F41052 inset;
+    cursor: pointer;
+}
+
+.navbarDropdown {
+    color: red;
+    background-color: aqua;
+}
+
+
+#fondo {
+    background-color: #000315;
+}
+
+#listadesplegable {
+    background-color: #000315;
+    
+}
+

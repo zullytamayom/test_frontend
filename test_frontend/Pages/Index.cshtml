@@ -3,9 +3,14 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 
-<div class="text-center">
+<body>
+
+<div class="container" id="divtitulo">
     <h1 class="display-4">@Localizer["title"]</h1>
     <h6>@Localizer["subtitle"]</h6>
-    <p>@Localizer["paragraph"]</p>
+    
 </div>
+
+</body>

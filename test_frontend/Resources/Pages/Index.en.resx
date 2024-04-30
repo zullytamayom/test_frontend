@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="paragraph" xml:space="preserve">
-    <value>Learn about &lt;a href="https://docs.microsoft.com/aspnet/core"&gt;building Web apps with ASP.NET Core&lt;/a&gt;.</value>
-  </data>
   <data name="subtitle" xml:space="preserve">
-    <value>SUBTITLE</value>
+    <value>KNOW THE POWER OF PANTHERA</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>TITLE</value>
+    <value>SCALE THE POTENTIAL OF YOUR COMPANY</value>
+  </data>
+  <data name="W" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="~/test_frontend.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">test_frontend</a>
+    <div class="container">
+            <nav id="fondo" class="navbar navbar-expand-lg">
+                <div class="container  justify-content-between">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,35 +19,63 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">@Localizer["home"]</a>
+                            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                                <img src="/images/logo.png" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">@Localizer["home"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">@Localizer["privacy"]</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Privacy">@Localizer["hub"]</a>
+                        </li>
+                            <li class="nav-item dropdown rounded-circle">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                @Localizer["services"]
+                            </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="listadesplegable">
+                                    <li><a class="dropdown-item text-white" href="#">@Localizer["dp1"]</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">@Localizer["dp2"]</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">@Localizer["dp3"]</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">@Localizer["dp4"]</a></li>
+                                @* <li><hr class="dropdown-divider"></li> *@
+                                    <li><a class="dropdown-item text-white" href="#">@Localizer["dp5"]</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Privacy">@Localizer["blog"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Privacy">@Localizer["contact"]</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                                 @Thread.CurrentThread.CurrentUICulture.Name
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li> <a class="dropdown-item" href="/Lang?culture=es">ES</a></li>
-                                <li><a class="dropdown-item" href="/Lang?culture=en">EN</a></li>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="listadesplegable">
+                                    <li> <a class="dropdown-item text-white" href="/Lang?culture=es">ES</a></li>
+                                    <li><a class="dropdown-item text-white" href="/Lang?culture=en">EN</a></li>
 
                             </ul>
 
                         </li>
 
                     </ul>
+                  
                 </div>
             </div>
         </nav>
-    </header>
+     </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+ 
 
     <footer class="border-top footer text-muted">
         <div class="container">
@@ -56,6 +83,7 @@
         </div>
     </footer>
 
+  
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

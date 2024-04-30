@@ -117,10 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="dp1" xml:space="preserve">
+    <value>Development of e-commerce and informative websites</value>
+  </data>
+  <data name="dp2" xml:space="preserve">
+    <value>Custom software development and automation</value>
+  </data>
+  <data name="dp3" xml:space="preserve">
+    <value>Software Outsourcing</value>
+  </data>
+  <data name="dp4" xml:space="preserve">
+    <value>Growth-oriented marketing strategy</value>
+  </data>
+  <data name="dp5" xml:space="preserve">
+    <value>Diseño estratégico de marca</value>
+  </data>
   <data name="home" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="privacy" xml:space="preserve">
-    <value>Privacy</value>
+  <data name="hub" xml:space="preserve">
+    <value>Hub</value>
+  </data>
+  <data name="services" xml:space="preserve">
+    <value>Services</value>
   </data>
 </root>

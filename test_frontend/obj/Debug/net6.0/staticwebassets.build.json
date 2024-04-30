@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cPIAHgG7rP3oOBDYTgNRr/xHc3kjhqn5hiCOx0JoOzk=",
+  "Hash": "NW8ilmxo7cmTYYdd9FrBdK+Ysl+I5EinOsNi5hE0xqE=",
   "Source": "test_frontend",
   "BasePath": "_content/test_frontend",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\test_frontend.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\css\\index.css",
+      "SourceId": "test_frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\",
+      "BasePath": "_content/test_frontend",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\css\\site.css",
       "SourceId": "test_frontend",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\logo.png",
+      "SourceId": "test_frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\",
+      "BasePath": "_content/test_frontend",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\js\\site.js",
