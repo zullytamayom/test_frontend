@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-color:white;
+
+    background-color: black;
 }
 
 
@@ -23,20 +23,27 @@ body {
     /* background-color: #F41052;*/
     box-shadow: 0 0 10px 100px #F41052 inset;
     cursor: pointer;
+
 }
 
 .navbarDropdown {
     color: red;
     background-color: aqua;
+    
+   
 }
 
 
 #fondo {
     background-color: #000315;
+    height: 100px;
+
+  
 }
 
 #listadesplegable {
     background-color: #000315;
     
 }
+
 
