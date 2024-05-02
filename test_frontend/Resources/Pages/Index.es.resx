@@ -117,6 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="content1" xml:space="preserve">
+    <value>Construye tu negocio y comienza a facturar con una integración de 360.</value>
+  </data>
+  <data name="content2" xml:space="preserve">
+    <value>Materializa tu idea de negocio o elimina ineficiencias operativas con una solución tecnológica a la medida.</value>
+  </data>
+  <data name="content3" xml:space="preserve">
+    <value>Reduce costos por equipos internos y agiliza actualizaciones en tu sistema.</value>
+  </data>
+  <data name="content4" xml:space="preserve">
+    <value>Escala tu negocio y cumple tus objetivos con una estrategia basada en datos.</value>
+  </data>
+  <data name="content5" xml:space="preserve">
+    <value>Conceptualiza tu idea y posiciona tu propuesta de valor.</value>
+  </data>
+  <data name="dp1" xml:space="preserve">
+    <value>Desarrollo de e-commerce y websites informativos</value>
+  </data>
+  <data name="dp2" xml:space="preserve">
+    <value>Desarrollo de software  a la medida y automatización</value>
+  </data>
+  <data name="dp3" xml:space="preserve">
+    <value>Subcontratación de Software</value>
+  </data>
+  <data name="dp4" xml:space="preserve">
+    <value>Estrategia de marketing orientada al crecimiento</value>
+  </data>
+  <data name="dp5" xml:space="preserve">
+    <value>Diseño estratégico de marca</value>
+  </data>
   <data name="subtitle" xml:space="preserve">
     <value>CONOCE EL PODER DE PANTHERA</value>
   </data>

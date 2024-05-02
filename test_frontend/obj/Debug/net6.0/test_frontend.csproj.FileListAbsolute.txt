@@ -8,6 +8,8 @@ C:\Users\User\source\repos\test_frontend\test_frontend\bin\Debug\net6.0\test_fro
 C:\Users\User\source\repos\test_frontend\test_frontend\bin\Debug\net6.0\test_frontend.pdb
 C:\Users\User\source\repos\test_frontend\test_frontend\bin\Debug\net6.0\en\test_frontend.resources.dll
 C:\Users\User\source\repos\test_frontend\test_frontend\bin\Debug\net6.0\es\test_frontend.resources.dll
+C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Index.en.resources
+C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Index.es.resources
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Shared._Layout.en.resources
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Shared._Layout.es.resources
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.csproj.GenerateResource.cache
@@ -36,5 +38,3 @@ C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\refint\t
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.pdb
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.genruntimeconfig.cache
 C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\ref\test_frontend.dll
-C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Index.en.resources
-C:\Users\User\source\repos\test_frontend\test_frontend\obj\Debug\net6.0\test_frontend.Resources.Pages.Index.es.resources

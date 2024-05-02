@@ -117,6 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="content1" xml:space="preserve">
+    <value>Build your business and start billing with a 360 integration.</value>
+  </data>
+  <data name="content2" xml:space="preserve">
+    <value>Materialize your business idea or eliminate operational inefficiencies with a tailored technological solution.</value>
+  </data>
+  <data name="content3" xml:space="preserve">
+    <value>Reduce costs for internal equipment and speed up updates to your system.</value>
+  </data>
+  <data name="content4" xml:space="preserve">
+    <value>Scale your business and meet your goals with a data-driven strategy.</value>
+  </data>
+  <data name="content5" xml:space="preserve">
+    <value>Conceptualize your idea and position your value proposition.</value>
+  </data>
+  <data name="dp1" xml:space="preserve">
+    <value>Development of e-commerce and informative websites</value>
+  </data>
+  <data name="dp2" xml:space="preserve">
+    <value>Custom software development and automation</value>
+  </data>
+  <data name="dp3" xml:space="preserve">
+    <value>Software Outsourcing</value>
+  </data>
+  <data name="dp4" xml:space="preserve">
+    <value>Growth-oriented marketing strategy</value>
+  </data>
+  <data name="dp5" xml:space="preserve">
+    <value>Brand strategist design</value>
+  </data>
   <data name="subtitle" xml:space="preserve">
     <value>KNOW THE POWER OF PANTHERA</value>
   </data>
