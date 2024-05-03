@@ -5,7 +5,7 @@
 }
 
 <div class="flex-container" id="divtitulo">
-    <div>
+    <div class="container-fluid">
         <h1 id="t1" class="display-8">@Localizer["title1"]</h1>
         <h1 id="t2" class="display-8">@Localizer["title2"]</h1>
         <h6>@Localizer["subtitle"]</h6>
@@ -144,18 +144,18 @@
             </div>
         </div>
     </div>
-    <div class="container" id="form1">
-        <div class="row">
-            <div class="col-6">
-                <img id="imgrv" src="/images/realidadvirtual.png" alt="" />
-            </div>
-            <div class="col-6">
-        <form class="form-container">
+    <div class="container-fluid" id="div-img-form"> 
+    <div class="row">
+        <div class="col-6">
+          <img id="imgrv" class="img-fluid" src="/images/realidadvirtual.png" alt="" />
+        </div>
+        <div class="col-6">
+            <form class="form-container">
             <div class="inputs">
-                <input type="text" placeholder="Input 1" class="border-white">
-                <input type="text" placeholder="Input 2" class="border-white">
-                <input type="text" placeholder="Input 3" class="border-white">
-                <input type="text" placeholder="Input 4" class="border-white">
+                <input id= "input" type="text" placeholder="Nombre y apellido" class="border-white">
+                <input id= "input" type="text" placeholder="Nombre de la empresa" class="border-white">
+                <input id= "input" type="text" placeholder="Correo" class="border-white">
+                <input id= "input" type="text" placeholder="Teléfono" class="border-white">
             </div>
             <div class="checkboxes">
                 <input type="checkbox" id="checkbox1">
@@ -172,14 +172,12 @@
                 <label for="checkbox6">Checkbox 6</label>
             </div>
             <button class="left-btn" id="btntrabajemos" type="submit">Trabajemos</button>
-        </form>
-            </div>
+            </form>
+        </div>
+        </div>
         </div>
     </div>
-
-
-</div>
-
+   
 
 
 
@@ -193,7 +191,6 @@
             $(this).find("img").css("filter", "none");
         });
     });
-    }
-       
+    
 </script>
   

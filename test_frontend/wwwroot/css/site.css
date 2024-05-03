@@ -64,4 +64,12 @@ button.navbar-toggler {
     background-repeat: no-repeat;
 }
 
+footer {
+    background-color: #ffffff;
+    height: 11cm;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 10px solid #F41052;
+}
+
  

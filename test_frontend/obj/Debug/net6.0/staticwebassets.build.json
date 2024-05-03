@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kCUsXCVpsTgsBpXu3q9HqKNZdDhk/UvT/mOZW9TAP6o=",
+  "Hash": "i8JUsYcExHD8R9Xp3EGjhjMA8kK6quQUog27dx8ecKU=",
   "Source": "test_frontend",
   "BasePath": "_content/test_frontend",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\realidadvirtual.png",
+      "SourceId": "test_frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\",
+      "BasePath": "_content/test_frontend",
+      "RelativePath": "images/realidadvirtual.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\realidadvirtual.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\js\\site.js",
