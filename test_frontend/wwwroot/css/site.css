@@ -70,6 +70,15 @@ footer {
     padding: 20px;
     box-sizing: border-box;
     border-bottom: 10px solid #F41052;
+    margin-top:-10%;
 }
 
+#logo-rosa{
+    width:100px;
+    height:100px;
+   margin-top:50px;
+}
+h3 {
+    font-weight: 700;
+}
  

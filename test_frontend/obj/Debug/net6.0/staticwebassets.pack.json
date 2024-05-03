@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\celulares.png"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\logo-rosa.png",
+      "PackagePath": "staticwebassets\\images\\logo-rosa.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },

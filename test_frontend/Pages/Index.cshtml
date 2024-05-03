@@ -157,21 +157,40 @@
                 <input id= "input" type="text" placeholder="Correo" class="border-white">
                 <input id= "input" type="text" placeholder="Teléfono" class="border-white">
             </div>
-            <div class="checkboxes">
-                <input type="checkbox" id="checkbox1">
-                <label for="checkbox1">Checkbox 1</label><br>
-                <input type="checkbox" id="checkbox2">
-                <label for="checkbox2">Checkbox 2</label><br>
-                <input type="checkbox" id="checkbox3">
-                <label for="checkbox3">Checkbox 3</label><br>
-                <input type="checkbox" id="checkbox4">
-                <label for="checkbox4">Checkbox 4</label><br>
-                <input type="checkbox" id="checkbox5">
-                <label for="checkbox5">Checkbox 5</label><br>
-                <input type="checkbox" id="checkbox6">
-                <label for="checkbox6">Checkbox 6</label>
+            <div class="container-fluid">
+               <div class="row">
+                    <div class="col-5">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="checkbox1" class="real-checkbox" name="checkbox1">
+                            <label for="checkbox1" class="custom-checkbox">@Localizer["dp1"]</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="checkbox2" class="real-checkbox" name="checkbox2">
+                            <label for="checkbox2" class="custom-checkbox">@Localizer["dp2"]</label>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="checkbox3" class="real-checkbox" name="checkbox3">
+                            <label for="checkbox3" class="custom-checkbox">@Localizer["dp3"]</label>
+                            <div class="checkbox-container">
+                            <input type="checkbox" id="checkbox2" class="real-checkbox" name="checkbox4">
+                            <label for="checkbox4" class="custom-checkbox">@Localizer["dp4"]</label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="checkbox2" class="real-checkbox" name="checkbox5">
+                            <label for="checkbox5" class="custom-checkbox">@Localizer["dp5"]</label>
+                        </div>
+                    </div>
+
+
+                    
+               </div>
             </div>
-            <button class="left-btn" id="btntrabajemos" type="submit">Trabajemos</button>
+            <button type="submit" id="btn-form">Trabajemos</button>
             </form>
         </div>
         </div>
