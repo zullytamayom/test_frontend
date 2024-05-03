@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\images\\card5.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\celulares.png",
+      "PackagePath": "staticwebassets\\images\\celulares.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\test_frontend\\test_frontend\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },

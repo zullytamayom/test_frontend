@@ -3,15 +3,13 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
-
-
 
 <div class="flex-container" id="divtitulo">
-    <h1 id="t1" class="display-8">@Localizer["title1"]</h1>
-    <h1 id="t2" class="display-8">@Localizer["title2"]</h1>
-    <h6>@Localizer["subtitle"]</h6>
-    
+    <div>
+        <h1 id="t1" class="display-8">@Localizer["title1"]</h1>
+        <h1 id="t2" class="display-8">@Localizer["title2"]</h1>
+        <h6>@Localizer["subtitle"]</h6>
+    </div>
  
       <div class="container">
         <div class="row">
@@ -21,8 +19,8 @@
                          class="card-img"
                          alt="Card Image" />
                     <h5 class="card-title">@Localizer["dp1"]</h5>
-                    <p class="card-content">@Localizer["content1"]</p>
-                    <button class="ver-mas">Ver más</button>
+                    <p class="card-content" id="tarjetas">@Localizer["content1"]</p>
+                    <button class="ver-mas">@Localizer["btn"]</button>
                 </div>
             </div>
             <div class="col">
@@ -31,8 +29,8 @@
                          class="card-img"
                          alt="Card Image" />
                     <h5 class="card-title">@Localizer["dp2"]</h5>
-                    <p class="card-content">@Localizer["content2"]</p>
-                    <button class="ver-mas">Ver más</button>
+                    <p class="card-content" id="tarjetas">@Localizer["content2"]</p>
+                    <button class="ver-mas">@Localizer["btn"]</button>
                 </div>
             </div>
             <div class="col">
@@ -41,8 +39,8 @@
                          class="card-img"
                          alt="Card Image" />
                     <h5 class="card-title">@Localizer["dp3"]</h5>
-                    <p class="card-content">@Localizer["content3"]</p>
-                    <button class="ver-mas">Ver más</button>
+                    <p class="card-content" id="tarjetas">@Localizer["content3"]</p>
+                    <button class="ver-mas">@Localizer["btn"]</button>
 
                 </div>
             </div>
@@ -52,8 +50,8 @@
                          class="card-img"
                          alt="Card Image" />
                     <h5 class="card-title">@Localizer["dp4"]</h5>
-                    <p class="card-content">@Localizer["content4"]</p>
-                    <button class="ver-mas">Ver más</button>
+                    <p class="card-content" id="tarjetas">@Localizer["content4"]</p>
+                    <button class="ver-mas">@Localizer["btn"]</button>
                 </div>
             </div>
             <div class="col">
@@ -62,8 +60,8 @@
                          class="card-img"
                          alt="Card Image" />
                     <h5 class="card-title">@Localizer["dp5"]</h5>
-                    <p class="card-content">@Localizer["content5"]</p>
-                    <button class="ver-mas">Ver más</button>
+                    <p class="card-content" id="tarjetas">@Localizer["content5"]</p>
+                    <button class="ver-mas">@Localizer["btn"]</button>
                 </div>
             </div>
         </div>
@@ -96,7 +94,92 @@
             <li class="marquee__item">&nbsp;Efipay &bull;</li>
         </ul>
     </div>
+    <div class="text-center">
+        <video autoplay="autoplay" loop="loop" muted class="col-12">
+            <source src="https://pantherahub.com/videos/home-desktop.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <h1 id="t1" class="display-8">@Localizer["title3"]</h1>
+        <h1 id="t2" class="display-8">@Localizer["title4"]</h1>
+        <h5 class="display-10">@Localizer["subtitle2"]</h5>
+        <h5 class="display-10">@Localizer["subtitle3"]</h5>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div id="card" class="card">
+                <img style="width: 100%; height: auto;flex: 0 0 auto;margin-right: 20px;"
+                     src="/images/celulares.png"
+                     alt="Imagen 1" />
+                <p class="card-content" id="contenidoslider">@Localizer["content4"]</p>
+                <button class="ver-mas">@Localizer["btn"]</button>
+            </div>
+            <div id="card" class="card">
+                <img style="width: 100%; height: auto;flex: 0 0 auto;margin-right: 20px;"
+                     src="/images/celulares.png"
+                     alt="Imagen 2" />
+                <p class="card-content" id="contenidoslider">@Localizer["content4"]</p>
+                <button class="ver-mas">@Localizer["btn"]</button>
+            </div>
+            <div id="card" class="card">
+                <img style="width: 100%; height: auto;flex: 0 0 auto;margin-right: 20px;"
+                     src="/images/celulares.png"
+                     alt="Imagen 3" />
+                <p class="card-content" id="contenidoslider">@Localizer["content4"]</p>
+                <button class="ver-mas">@Localizer["btn"]</button>
+            </div>
+            <div id="card" class="card">
+                <img style="width: 100%; height: auto;flex: 0 0 auto;margin-right: 20px;"
+                     src="/images/celulares.png"
+                     alt="Imagen 4" />
+                <p class="card-content" id="contenidoslider">@Localizer["content4"]</p>
+                <button class="ver-mas">@Localizer["btn"]</button>
+            </div>
+            <div id="card" class="card">
+                <img style="width: 100%; height: auto;flex: 0 0 auto;margin-right: 20px;"
+                     src="/images/celulares.png"
+                     alt="Imagen 5" />
+                <p class="card-content" id="contenidoslider">@Localizer["content4"]</p>
+                <button class="ver-mas">@Localizer["btn"]</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="form">
+        <div class="row">
+            <div class="col-6">
+                <img id="imgrv" src="/images/realidadvirtual.png" alt="" />
+            </div>
+            <div class="col-6">
+        <form class="form-container">
+            <div class="inputs">
+                <input type="text" placeholder="Input 1" class="border-white">
+                <input type="text" placeholder="Input 2" class="border-white">
+                <input type="text" placeholder="Input 3" class="border-white">
+                <input type="text" placeholder="Input 4" class="border-white">
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox1">Checkbox 1</label><br>
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox2">Checkbox 2</label><br>
+                <input type="checkbox" id="checkbox3">
+                <label for="checkbox3">Checkbox 3</label><br>
+                <input type="checkbox" id="checkbox4">
+                <label for="checkbox4">Checkbox 4</label><br>
+                <input type="checkbox" id="checkbox5">
+                <label for="checkbox5">Checkbox 5</label><br>
+                <input type="checkbox" id="checkbox6">
+                <label for="checkbox6">Checkbox 6</label>
+            </div>
+            <button class="left-btn" id="btntrabajemos" type="submit">Trabajemos</button>
+        </form>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+
 
 
 
@@ -111,4 +194,6 @@
         });
     });
     }
+       
 </script>
+  

@@ -18,6 +18,9 @@ h1 {
 #t2 {
     margin-top:0px;
 }
+h5 {
+    color: #FFFFFF;
+}
 h6 {
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
@@ -59,7 +62,7 @@ h6 {
     border-bottom-right-radius: 0px;
 }
 
-.card-content {
+#tarjetas {
     padding: 40px;
     opacity: 0;
     position: absolute;
@@ -70,9 +73,11 @@ h6 {
     color: #fff;
     text-align: start;
     line-height: 1.0;
+    flex: 1;
+
 }
 
-.card:hover .card-content {
+.card:hover #tarjetas {
     opacity: 1;
 }
 
@@ -95,12 +100,11 @@ h6 {
 .marquee {
     width: 100%;
     height: 100px;
-    /*border-top: 3px solid gray;
-    border-bottom: 3px solid gray;*/
     overflow: hidden;
     background-color: #000315;
     color: #ffffff;
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-bottom: 150px;
 }
 
     .marquee li {
@@ -125,4 +129,123 @@ h6 {
     100% {
         transform: translateX(-100%)
     }
+}
+
+
+.carousel-container {
+    width: 80%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    margin-top:100px;
+}
+
+.carousel {
+    display: flex; 
+    animation: slideLeft 10s linear infinite; 
+}
+
+#card {
+    flex: 0 0 33.33%; 
+    padding: 20px;
+    text-align: center;
+    background-color:#000315;
+}
+
+   
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#contenidoslider {
+    flex: 1;
+    color: #fff;
+}
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20cm;
+    border: 5px solid red;
+    background-color:red;
+}
+
+.form-container {
+    width: 15cm;
+    height: 16cm;
+    background-color: #1D1F2C;
+    padding: 20px;
+    border: 1px solid #2E3669;
+    border-radius:20px;
+    margin-top:300px;
+    
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+    .inputs input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius:10px;
+    }
+
+.checkboxes input[type="checkbox"] {
+    display: none;
+}
+
+.checkboxes label {
+    color: white;
+    margin-right: 10px;
+}
+
+    .checkboxes label:before {
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        border: 1px solid white;
+        vertical-align: middle;
+        background-color: transparent;
+    }
+
+.checkboxes input[type="checkbox"]:checked + label:before {
+    background-color: white;
+}
+
+button {
+    background-color: #F41052;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    height: 30px; /* Alto del botón */
+    font-size: 14px;
+}
+
+.left-btn {
+    float: left;
+}
+#imgrv {
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 90%, 0% 90%);
+    top:40%;
+    bottom:20px;
+    padding:20px;
 }

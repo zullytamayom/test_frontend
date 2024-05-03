@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btn" xml:space="preserve">
+    <value>Ver más</value>
+  </data>
   <data name="content1" xml:space="preserve">
     <value>Construye tu negocio y comienza a facturar con una integración de 360.</value>
   </data>
@@ -150,10 +153,22 @@
   <data name="subtitle" xml:space="preserve">
     <value>CONOCE EL PODER DE PANTHERA</value>
   </data>
+  <data name="subtitle2" xml:space="preserve">
+    <value>NO SERÁS OTRO NÚMERO; ANALIZAREMOS TU NEGOCIO PARA OFRECERTE UNA</value>
+  </data>
+  <data name="subtitle3" xml:space="preserve">
+    <value>SOLUCIÓN PERSONALIZADA Y LLEVARTE HACIA EL ÉXITO.</value>
+  </data>
   <data name="title1" xml:space="preserve">
     <value>ESCALA EL POTENCIAL</value>
   </data>
   <data name="title2" xml:space="preserve">
     <value>DE TU EMPRESA</value>
+  </data>
+  <data name="title3" xml:space="preserve">
+    <value>CONECTAMOS CONTIGO</value>
+  </data>
+  <data name="title4" xml:space="preserve">
+    <value>Y TUS CLIENTES.</value>
   </data>
 </root>
